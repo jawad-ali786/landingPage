@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: #efe9eb;
+    height: 100px;
+    width: 99vw;
+    display: flex;
+}
+.logo{
+    margin-left: 10px;
+    font-weight: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.imgmrgn{
+    margin-top: 10px;
+}
+.nalink{
+    width: 60vw;
+    margin: auto auto;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+.active{
+    color: rgb(80, 106, 255);
+}
+ul{
+    list-style-type: none;
+}
+.slider{
+    
+    height: 500px;
+    background-image: url(https://blog.trello.com/hubfs/Illo_X_Characteristics_of_Problem_Solving__Solution_Oriented_Leaders.png);
+    background-size: cover;
+
+}
+.feature {
+    margin-top: 10px;
+    height: 150px;
+    background-image: url(https://www.pngkey.com/png/detail/26-265382_light-shade-white-background-with-yellow-circle.png);
+    rotate: 180deg;
+ 
+}
+.detialtext{
+    position: relative;
+    top: 40px;
+    rotate: 180deg;
+    font-weight: 700;
+    font-size: 30px;
+   
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: azure;
+    padding: 10px;
+
+}
+.prdtext{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+
+ 
+}
+.brndname{
+    margin-top: 10px;
+    font-size: x-large;
+    text-align: center;
+    background-color: azure;
+}
